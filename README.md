@@ -8,3 +8,6 @@ Day 12
 
 Day 13 Morning Session
 1. Security Authorization - Concepts of  Areas, Font Awesome icon using Partial view in Areas.
+
+Day 15
+1. Project Demo & Session Demo in both .Net Framework & .Net Core
