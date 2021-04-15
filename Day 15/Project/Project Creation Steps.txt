@@ -1,0 +1,85 @@
+Project Creation Steps:
+
+------------------
+Database
+------------------
+Create a DB
+Create a Login table
+
+--------------------
+Class Library (DAL)
+--------------------
+DB first approach
+Save build
+
+---------------------------------------------
+Class Library (Business Layer (Repo)) - Many
+---------------------------------------------
+1. Add reference of DAL.dll, EntityFramework.dll, EntityFramework.SqlServer.dll
+
+2. Create interface for every table and write methods
+
+3. Create class and implement interface and their methods
+
+---------------------------
+Service Layer - Many
+---------------------------
+WebAPI
+
+--------------------------
+Web Application
+--------------------------
+1. Add reference of Projects DAL and BAL
+
+2. Install dependency container - unity.mvc 5
+
+3. Register the interface and class in dependency container as service
+	In .Net Framework
+		UnityConfig -> RegisterComponents() -> container.RegisterType<ILogin, LoginRepo>();
+		Global.asax -> Application_Start() -> In 2nd line -> UnityConfig.RegisterComponents();
+	In Core
+		Startup -> ConfigureServices -> services.AddScoped<ILogin, LoginRepo>();
+
+4. Create Controller
+5. Create Action methods
+6. Create Strongly typed view
+
+--------------------------
+Session in .Net Framework
+--------------------------
+1. Session setting in actioin methods -> Session["Username"] = login.UserName;
+	
+2. Session getting in View -> @Session["Username"]
+
+--------------------
+Session in Core
+--------------------
+1. Install following package for Session usage
+	WebApp -> right click -> nuget packages -> browser -> Microsoft.AspNetCore.Session
+
+2. In Startup.cs -> ConfigureServices() -> 
+
+            services.AddSession(options =>
+            {
+                // Set a short timeout for easy testing.
+                options.IdleTimeout = TimeSpan.FromMinutes(5);
+                options.Cookie.HttpOnly = true;
+                // Make the session cookie essential
+                options.Cookie.IsEssential = true;
+
+            });
+            // To Read/Add a value into Session
+            services.AddHttpContextAccessor();
+
+3. In Configure()
+	app.UseSession(); in b/w app.UseStaticFiles(); & app.UseRouting();
+
+4. Session setting in action method
+	HttpContext.Session.SetString("UserName", login.UserName);
+
+5. Session getting in view
+	@using Microsoft.AspNetCore.Http;
+
+	@inject IHttpContextAccessor HttpContextAccessor
+
+	<h3>Hello @HttpContextAccessor.HttpContext.Session.GetString("UserName")</h3>

@@ -1,0 +1,15 @@
+E:\J2W\Day 15\Project\OnlineShoppingApp\OS_Repo\obj\Debug\net5.0\OS_Repo.csprojAssemblyReference.cache
+E:\J2W\Day 15\Project\OnlineShoppingApp\OS_Repo\obj\Debug\net5.0\OS_Repo.GeneratedMSBuildEditorConfig.editorconfig
+E:\J2W\Day 15\Project\OnlineShoppingApp\OS_Repo\obj\Debug\net5.0\OS_Repo.AssemblyInfoInputs.cache
+E:\J2W\Day 15\Project\OnlineShoppingApp\OS_Repo\obj\Debug\net5.0\OS_Repo.AssemblyInfo.cs
+E:\J2W\Day 15\Project\OnlineShoppingApp\OS_Repo\obj\Debug\net5.0\OS_Repo.csproj.CoreCompileInputs.cache
+E:\J2W\Day 15\Project\OnlineShoppingApp\OS_Repo\bin\Debug\net5.0\OS_Repo.deps.json
+E:\J2W\Day 15\Project\OnlineShoppingApp\OS_Repo\bin\Debug\net5.0\OS_Repo.dll
+E:\J2W\Day 15\Project\OnlineShoppingApp\OS_Repo\bin\Debug\net5.0\ref\OS_Repo.dll
+E:\J2W\Day 15\Project\OnlineShoppingApp\OS_Repo\bin\Debug\net5.0\OS_Repo.pdb
+E:\J2W\Day 15\Project\OnlineShoppingApp\OS_Repo\bin\Debug\net5.0\OS_DAL.dll
+E:\J2W\Day 15\Project\OnlineShoppingApp\OS_Repo\bin\Debug\net5.0\OS_DAL.pdb
+E:\J2W\Day 15\Project\OnlineShoppingApp\OS_Repo\obj\Debug\net5.0\OS_Repo.csproj.CopyComplete
+E:\J2W\Day 15\Project\OnlineShoppingApp\OS_Repo\obj\Debug\net5.0\OS_Repo.dll
+E:\J2W\Day 15\Project\OnlineShoppingApp\OS_Repo\obj\Debug\net5.0\ref\OS_Repo.dll
+E:\J2W\Day 15\Project\OnlineShoppingApp\OS_Repo\obj\Debug\net5.0\OS_Repo.pdb

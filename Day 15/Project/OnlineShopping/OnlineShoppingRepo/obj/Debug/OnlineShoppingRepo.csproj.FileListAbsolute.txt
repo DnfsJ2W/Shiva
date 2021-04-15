@@ -1,0 +1,14 @@
+E:\J2W\Day 15\Project\OnlineShopping\OnlineShoppingRepo\bin\Debug\OnlineShoppingRepo.dll
+E:\J2W\Day 15\Project\OnlineShopping\OnlineShoppingRepo\bin\Debug\OnlineShoppingRepo.pdb
+E:\J2W\Day 15\Project\OnlineShopping\OnlineShoppingRepo\bin\Debug\EntityFramework.dll
+E:\J2W\Day 15\Project\OnlineShopping\OnlineShoppingRepo\bin\Debug\EntityFramework.SqlServer.dll
+E:\J2W\Day 15\Project\OnlineShopping\OnlineShoppingRepo\bin\Debug\OnlineShopping_DAL.dll
+E:\J2W\Day 15\Project\OnlineShopping\OnlineShoppingRepo\bin\Debug\EntityFramework.xml
+E:\J2W\Day 15\Project\OnlineShopping\OnlineShoppingRepo\bin\Debug\EntityFramework.SqlServer.xml
+E:\J2W\Day 15\Project\OnlineShopping\OnlineShoppingRepo\bin\Debug\OnlineShopping_DAL.pdb
+E:\J2W\Day 15\Project\OnlineShopping\OnlineShoppingRepo\bin\Debug\OnlineShopping_DAL.dll.config
+E:\J2W\Day 15\Project\OnlineShopping\OnlineShoppingRepo\obj\Debug\OnlineShoppingRepo.csprojAssemblyReference.cache
+E:\J2W\Day 15\Project\OnlineShopping\OnlineShoppingRepo\obj\Debug\OnlineShoppingRepo.csproj.CoreCompileInputs.cache
+E:\J2W\Day 15\Project\OnlineShopping\OnlineShoppingRepo\obj\Debug\OnlineShoppingRepo.csproj.CopyComplete
+E:\J2W\Day 15\Project\OnlineShopping\OnlineShoppingRepo\obj\Debug\OnlineShoppingRepo.dll
+E:\J2W\Day 15\Project\OnlineShopping\OnlineShoppingRepo\obj\Debug\OnlineShoppingRepo.pdb

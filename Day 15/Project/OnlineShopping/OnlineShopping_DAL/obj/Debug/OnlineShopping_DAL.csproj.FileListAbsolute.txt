@@ -1,0 +1,12 @@
+E:\J2W\Day 15\Project\OnlineShopping\OnlineShopping_DAL\bin\Debug\OnlineShopping_DAL.dll.config
+E:\J2W\Day 15\Project\OnlineShopping\OnlineShopping_DAL\bin\Debug\OnlineShopping_DAL.dll
+E:\J2W\Day 15\Project\OnlineShopping\OnlineShopping_DAL\bin\Debug\OnlineShopping_DAL.pdb
+E:\J2W\Day 15\Project\OnlineShopping\OnlineShopping_DAL\bin\Debug\EntityFramework.dll
+E:\J2W\Day 15\Project\OnlineShopping\OnlineShopping_DAL\bin\Debug\EntityFramework.SqlServer.dll
+E:\J2W\Day 15\Project\OnlineShopping\OnlineShopping_DAL\bin\Debug\EntityFramework.xml
+E:\J2W\Day 15\Project\OnlineShopping\OnlineShopping_DAL\bin\Debug\EntityFramework.SqlServer.xml
+E:\J2W\Day 15\Project\OnlineShopping\OnlineShopping_DAL\obj\Debug\OnlineShopping_DAL.csprojAssemblyReference.cache
+E:\J2W\Day 15\Project\OnlineShopping\OnlineShopping_DAL\obj\Debug\OnlineShopping_DAL.csproj.CoreCompileInputs.cache
+E:\J2W\Day 15\Project\OnlineShopping\OnlineShopping_DAL\obj\Debug\OnlineShopping_DAL.csproj.CopyComplete
+E:\J2W\Day 15\Project\OnlineShopping\OnlineShopping_DAL\obj\Debug\OnlineShopping_DAL.dll
+E:\J2W\Day 15\Project\OnlineShopping\OnlineShopping_DAL\obj\Debug\OnlineShopping_DAL.pdb

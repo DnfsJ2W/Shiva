@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="OS_DAL">
+      <HintPath>..\OS_DAL\bin\Debug\net5.0\OS_DAL.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
