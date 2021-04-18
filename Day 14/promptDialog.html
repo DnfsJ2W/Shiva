@@ -1,0 +1,24 @@
+<html> 
+   <head> 
+      <script type = "text/javascript"> 
+         function getValue(){  
+            let retVal;
+            retVal = prompt("Enter your name : ", "your name here");  
+            if( retVal != null ){  
+                document.write("You have entered : " + retVal);  
+               return true;  
+            } else {  
+                document.write("You have entered : " + retVal);  
+               return false;  
+            }  
+         }  
+      </script> 
+   </head> 
+
+   <body> 
+      <p>Click the following button to see the result: </p> 
+      <form> 
+         <input type = "button" value = "Click Me" onclick = "getValue();" /> 
+      </form> 
+   </body> 
+</html> 

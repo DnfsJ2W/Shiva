@@ -1,0 +1,73 @@
+<html>
+   <head>
+      <title>JavaScript constructor() Method</title>
+   </head>
+   <body>
+      <script type="text/javascript">
+         var bool = new Boolean( );
+         document.write("bool.constructor() is : " + bool.constructor);
+      </script>
+   </body>
+</html>
+<html>
+   <head>
+      <title>User-defined objects</title>
+      <script type="text/javascript">
+         function book(title, author){
+            this.title = title;
+            this.author = author;
+         }
+      </script>
+   </head>
+   <body>
+      <script type="text/javascript">
+         var myBook = new book("Perl", "Tom");
+         book.prototype.price = null;
+         myBook.price = 100;
+         document.write("Book title is : " + myBook.title + "<br>");
+         document.write("Book author is : " + myBook.author + "<br>");
+         document.write("Book price is : " + myBook.price + "<br>");
+      </script>
+   </body>
+</html>
+
+<html>
+   <head>
+      <title>JavaScript toSource() Method</title>
+   </head>
+   <body>
+      <script type="text/javascript">
+         function book1(title, publisher, price) {
+            this.title = title;
+            this.publisher = publisher;
+            this.price = price;
+         }
+         var newBook = new book1("Perl","Leo Inc",200);
+         document.write("newBook.toSource() is : "+ newBook.toSource());
+      </script>
+   </body>
+</html>
+
+<html>
+   <head>
+      <title>JavaScript toString() Method</title>
+   </head>
+   <body>
+      <script type="text/javascript">
+         var flag = new Boolean(false);
+         document.write( "flag.toString is : " + flag.toString());
+      </script>
+   </body>
+</html>
+
+<html>
+   <head>
+      <title>JavaScript toString() Method</title>
+   </head>
+   <body>
+      <script type="text/javascript">
+         var flag = new Boolean(false);
+         document.write( "flag.valueOf is : " + flag.valueOf());
+      </script>
+   </body>
+</html>
