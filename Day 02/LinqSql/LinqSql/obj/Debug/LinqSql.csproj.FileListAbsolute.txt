@@ -1,0 +1,7 @@
+E:\J2W\Linq\LinqSql\LinqSql\bin\Debug\LinqSql.exe.config
+E:\J2W\Linq\LinqSql\LinqSql\bin\Debug\LinqSql.exe
+E:\J2W\Linq\LinqSql\LinqSql\bin\Debug\LinqSql.pdb
+E:\J2W\Linq\LinqSql\LinqSql\obj\Debug\LinqSql.csprojAssemblyReference.cache
+E:\J2W\Linq\LinqSql\LinqSql\obj\Debug\LinqSql.csproj.CoreCompileInputs.cache
+E:\J2W\Linq\LinqSql\LinqSql\obj\Debug\LinqSql.exe
+E:\J2W\Linq\LinqSql\LinqSql\obj\Debug\LinqSql.pdb

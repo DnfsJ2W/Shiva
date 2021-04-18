@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="LinqSQL">
+  <DataContextMoniker Name="/LinqSQLDataContext" />
+  <nestedChildShapes>
+    <classShape Id="ba43fc10-91df-4439-9bab-bbc079c228bc" absoluteBounds="0.75, 1, 2, 1.3862939453125">
+      <DataClassMoniker Name="/LinqSQLDataContext/Department" />
+      <nestedChildShapes>
+        <elementListCompartment Id="659153da-4bf9-421c-a461-48016f565c2d" absoluteBounds="0.765, 1.46, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="33ab2156-0176-4e5e-b2a9-9276c1a692a8" absoluteBounds="3.5, 0.875, 2, 1.5785953776041664">
+      <DataClassMoniker Name="/LinqSQLDataContext/Employee" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4aabc0a0-0063-4f8a-84c8-83c08e31af07" absoluteBounds="3.515, 1.335, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 1.69314697265625); (3.5 : 1.69314697265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/LinqSQLDataContext/Department/Department_Employee" />
+      <nodes>
+        <classShapeMoniker Id="ba43fc10-91df-4439-9bab-bbc079c228bc" />
+        <classShapeMoniker Id="33ab2156-0176-4e5e-b2a9-9276c1a692a8" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
