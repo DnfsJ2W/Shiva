@@ -1,1 +1,8 @@
-<favorite [isFavorite]="post.isFavorite" (change)= "onFavoriteChanged()"></favorite>
+<favorite [isFavorite]="post.isFavorite" (a)= "onFavoriteChanged()"></favorite>
+
+<span
+   class="glyphicon"
+   [class.glyphicon-star]="!isFavorite"
+   [class.glyphicon-star-empty]="isFavorite"
+   (click)="onFavoriteChanged()"
+   ></span>

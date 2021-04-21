@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="CountryModelStoreContainer" CdmEntityContainer="CountryEntities">
+    <EntitySetMapping Name="Countries">
+      <EntityTypeMapping TypeName="CountryModel.Country">
+        <MappingFragment StoreEntitySet="Countries">
+          <ScalarProperty Name="CountryID" ColumnName="CountryID" />
+          <ScalarProperty Name="CountryName" ColumnName="CountryName" />
+          <ScalarProperty Name="TwoCharCountryCode" ColumnName="TwoCharCountryCode" />
+          <ScalarProperty Name="ThreeCharCountryCode" ColumnName="ThreeCharCountryCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="searchCountryByName" FunctionName="CountryModel.Store.searchCountryByName" />
+  </EntityContainerMapping>
+</Mapping>

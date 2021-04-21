@@ -1,0 +1,16 @@
+<table border="1" id="table1">
+    <tr>
+        <th>Student ID</th>
+        <th>Student Name</th>
+        <th>Marks</th>
+    </tr>
+
+
+    <tr *ngFor="let post of posts">
+    <td>{{post.Id}}</td> <td>{{post.Name}}</td> <td>{{post.Marks}}</td>
+    </tr>
+</table>
+
+<input type="button" value="GetALLStudents" id="button1"
+(click)="GetStudents()" class="btn btn-default btn-sm" />
+

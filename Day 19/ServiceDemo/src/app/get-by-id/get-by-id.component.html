@@ -1,0 +1,25 @@
+<form id="form1">
+  <p>
+      <label for="Id">ID:</label>
+      <input type="text" id="Id" name="Id" [(ngModel)]="Id"/>
+  </p>
+
+  <p>
+      <label for="Name">Name:</label>
+      <input type="text" id="Name" name="StudentName" [(ngModel)]="Name"/>
+  </p>
+
+  <p>
+      <label for="Marks">Marks:</label>
+      <input type="text" id="Marks" name="Marks" [(ngModel)]="Marks"/>
+  </p>
+
+
+  <p>
+      <input type="button" id="button1" value="GetStudentById" (click)="GetStudentById()"
+      class="btn btn-default btn-sm" />
+      <span id="ResponseSpan"></span>
+  </p>
+
+</form>
+

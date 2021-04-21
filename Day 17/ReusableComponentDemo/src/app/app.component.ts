@@ -6,12 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  //title = 'ReusableComponentDemo';
+  title: any;// = 'ReusableComponentDemo';
+  isFavorite:any;
   post={
     title: "ReusableComponentDemo",
     isFavorite: true
   }
   onFavoriteChanged(){
+    this.isFavorite = !this.isFavorite;
     console.log('Favorite Changed')
   }
 

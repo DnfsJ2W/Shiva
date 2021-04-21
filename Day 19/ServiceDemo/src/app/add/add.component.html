@@ -1,0 +1,23 @@
+<form id="form1">
+  <p>
+      <label>ID:</label>
+      <input type="text" id="Id" name="Id" class="form-control" [(ngModel)]="Id"/>
+  </p>
+
+  <p>
+      <label>Name:</label>
+      <input type="text" id="Name" name="StudentName" class="form-control" [(ngModel)]="Name" />
+  </p>
+
+  <p>
+      <label>Marks:</label>
+      <input type="text" id="Marks" name="Marks" class="form-control" [(ngModel)]="Marks" />
+  </p>
+
+
+  <p>
+      <input type="button" id="button1" value="Insert" (click)="AddStudent()" />
+      <span id="ResponseSpan"></span>
+  </p>
+
+</form>
