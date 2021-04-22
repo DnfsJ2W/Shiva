@@ -5,9 +5,11 @@
       [opened]="(isHandset$ | async) === false">
     <mat-toolbar>Menu</mat-toolbar>
     <mat-nav-list>
-      <a mat-list-item href="#">Link 1</a>
-      <a mat-list-item href="#">Link 2</a>
-      <a mat-list-item href="#">Link 3</a>
+      <a mat-list-item (click)="onPress(1)">All Students</a>
+      <a mat-list-item (click)="onPress(2)">Search Student</a>
+      <a mat-list-item (click)="onPress(3)">Add Student</a>
+      <a mat-list-item (click)="onPress(4)">Update Student</a>
+      <a mat-list-item (click)="onPress(5)">Delete Student</a>
     </mat-nav-list>
   </mat-sidenav>
   <mat-sidenav-content>
@@ -23,5 +25,12 @@
       <span>ServiceDemo</span>
     </mat-toolbar>
     <!-- Add Content Here -->
+    <div id="comp-render" [ngSwitch]="display">
+      <span *ngSwitchCase=1><app-get></app-get></span>
+      <span *ngSwitchCase=2><app-get-by-id></app-get-by-id></span>
+      <span *ngSwitchCase=3><app-add></app-add></span>
+      <span *ngSwitchCase=4><app-update></app-update></span>
+      <span *ngSwitchCase=5><app-delete></app-delete></span>
+    </div>
   </mat-sidenav-content>
 </mat-sidenav-container>

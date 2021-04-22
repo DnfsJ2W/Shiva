@@ -16,6 +16,11 @@ export class MyNavComponent {
       shareReplay()
     );
 
+
   constructor(private breakpointObserver: BreakpointObserver) {}
 
+  display:any;
+  onPress(x:number) {
+    this.display = x;
+  }
 }
