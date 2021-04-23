@@ -1,0 +1,16 @@
+E:\J2W\Git Push\Shiva\Day 22\JenkinsDemo\JenkinsDemo\bin\Debug\net5.0\JenkinsDemo.exe
+E:\J2W\Git Push\Shiva\Day 22\JenkinsDemo\JenkinsDemo\bin\Debug\net5.0\JenkinsDemo.deps.json
+E:\J2W\Git Push\Shiva\Day 22\JenkinsDemo\JenkinsDemo\bin\Debug\net5.0\JenkinsDemo.runtimeconfig.json
+E:\J2W\Git Push\Shiva\Day 22\JenkinsDemo\JenkinsDemo\bin\Debug\net5.0\JenkinsDemo.runtimeconfig.dev.json
+E:\J2W\Git Push\Shiva\Day 22\JenkinsDemo\JenkinsDemo\bin\Debug\net5.0\JenkinsDemo.dll
+E:\J2W\Git Push\Shiva\Day 22\JenkinsDemo\JenkinsDemo\bin\Debug\net5.0\ref\JenkinsDemo.dll
+E:\J2W\Git Push\Shiva\Day 22\JenkinsDemo\JenkinsDemo\bin\Debug\net5.0\JenkinsDemo.pdb
+E:\J2W\Git Push\Shiva\Day 22\JenkinsDemo\JenkinsDemo\obj\Debug\net5.0\JenkinsDemo.csprojAssemblyReference.cache
+E:\J2W\Git Push\Shiva\Day 22\JenkinsDemo\JenkinsDemo\obj\Debug\net5.0\JenkinsDemo.GeneratedMSBuildEditorConfig.editorconfig
+E:\J2W\Git Push\Shiva\Day 22\JenkinsDemo\JenkinsDemo\obj\Debug\net5.0\JenkinsDemo.AssemblyInfoInputs.cache
+E:\J2W\Git Push\Shiva\Day 22\JenkinsDemo\JenkinsDemo\obj\Debug\net5.0\JenkinsDemo.AssemblyInfo.cs
+E:\J2W\Git Push\Shiva\Day 22\JenkinsDemo\JenkinsDemo\obj\Debug\net5.0\JenkinsDemo.csproj.CoreCompileInputs.cache
+E:\J2W\Git Push\Shiva\Day 22\JenkinsDemo\JenkinsDemo\obj\Debug\net5.0\JenkinsDemo.dll
+E:\J2W\Git Push\Shiva\Day 22\JenkinsDemo\JenkinsDemo\obj\Debug\net5.0\ref\JenkinsDemo.dll
+E:\J2W\Git Push\Shiva\Day 22\JenkinsDemo\JenkinsDemo\obj\Debug\net5.0\JenkinsDemo.pdb
+E:\J2W\Git Push\Shiva\Day 22\JenkinsDemo\JenkinsDemo\obj\Debug\net5.0\JenkinsDemo.genruntimeconfig.cache
